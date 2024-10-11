@@ -54,10 +54,20 @@ font-family: "Roboto", sans-serif;*/
     text-transform: uppercase;
     color: #4d5ae5;
   }
+
+  /*---hw3---*/
+
+  .header-logo {
+    margin-right: 76px;
+  }
+
   .header-logo .logo-part {
         color: #2e2f42;
   }
-
+ .footer-logo {
+  margin-bottom: 16px;
+ }
+ 
    .footer-logo .logo-part {
         color: #f4f4fd;
    }
@@ -177,9 +187,7 @@ font-family: "Roboto", sans-serif;*/
     cursor: pointer;
  }
 /* ----  HW 3-----*/
- .img {
-  display: block;
- }
+ 
 
 
 
