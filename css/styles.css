@@ -268,7 +268,11 @@ padding: 188px 0;
   padding-top: 120px;
   padding-bottom: 120px;
  }
-
+ .portfolio-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+ }
  .page-footer {
   padding: 100px 0;
  }
