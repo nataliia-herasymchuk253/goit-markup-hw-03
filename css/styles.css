@@ -132,9 +132,9 @@ font-family: "Roboto", sans-serif;*/
         margin-bottom: 8px;
 }
  .card-item {
-  width: calc((100% - 48px) / 3);
+  width: calc((100% - 72px) / 4);
  }
- 
+
 .feature-text {
     font-weight: 400;
         font-size: 16px;
