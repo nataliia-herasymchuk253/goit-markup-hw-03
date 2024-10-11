@@ -119,7 +119,7 @@ font-family: "Roboto", sans-serif;*/
 
      .feature-list {
       display: flex;
-      width: calc((100% - 72px) / 4);
+      
       gap: 24px;
      }
 .feature-subtitle {
@@ -137,7 +137,9 @@ font-family: "Roboto", sans-serif;*/
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
  }
-
+ .feature-item {
+  width: calc((100% - 72px) / 4);
+ }
 .feature-text {
     font-weight: 400;
         font-size: 16px;
