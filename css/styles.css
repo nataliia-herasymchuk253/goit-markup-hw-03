@@ -5,12 +5,46 @@ font-family: "Roboto", sans-serif;*/
     color: #434455;
     background-color: #fff;
   }
+  /* ----reset----*/
   ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2, h3, h4, h5,h6, p {
+    margin: 0;
   }
   a {
     text-decoration: none;
   }
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+/* ------ style for header------*/
+.page-header {
+  border-bottom: 1px solid #E7E9FC;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
   .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -29,6 +63,8 @@ font-family: "Roboto", sans-serif;*/
    }
 
   .nav-link {
+    padding: 24px 0;
+    display: block;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -37,9 +73,18 @@ font-family: "Roboto", sans-serif;*/
   }
   
   .contacts {
+    margin-left: auto;
     font-style: normal;
   }
+    .contacts-list {
+      gap: 40px;
+      display: flex;
+      align-items: center;
+    }
+
   .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -136,7 +181,7 @@ font-family: "Roboto", sans-serif;*/
 
 
 
-        /* --- working---- */
+        
    .footer-text {
             font-weight: 400;
             font-size: 16px;
@@ -144,5 +189,5 @@ font-family: "Roboto", sans-serif;*/
             letter-spacing: 0.02em;
             color: #F4F4FD;
    }
-   /* --- working---- */
+   
    
