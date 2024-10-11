@@ -262,7 +262,13 @@ padding: 188px 0;
   max-width: 100%;
   height: auto;
  }
- 
+ /*---section 3 ---*/
+
+ .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+ }
+
  .page-footer {
   padding: 100px 0;
  }
@@ -274,11 +280,11 @@ padding: 188px 0;
 
         
    .footer-text {
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 150%;
-            letter-spacing: 0.02em;
-            color: #F4F4FD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
    }
    
    
