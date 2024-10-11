@@ -188,6 +188,10 @@ font-family: "Roboto", sans-serif;*/
         color: #fff;
         max-width: 496px;
  }
+ .hero {
+  padding: 100px 0;
+ }
+ 
  .form-button {
         background: #4d5ae5; 
         font-weight: 500;
@@ -220,7 +224,10 @@ font-family: "Roboto", sans-serif;*/
   max-width: 100%;
  }
  
- 
+ .page-footer {
+  padding: 100px 0;
+ }
+
  .footer-logo {
   display: inline-block;
  }
