@@ -67,7 +67,7 @@ font-family: "Roboto", sans-serif;*/
  .footer-logo {
   margin-bottom: 16px;
  }
- 
+
    .footer-logo .logo-part {
         color: #f4f4fd;
    }
@@ -133,6 +133,18 @@ font-family: "Roboto", sans-serif;*/
 .section-team {
     background-color: #F4F4FD
 }
+.visually-hidden {
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
  .section-title {
     font-weight: 700;
@@ -165,6 +177,8 @@ font-family: "Roboto", sans-serif;*/
  }
  .hero {
     background-color: #2e2f42;
+    padding: 188px 0;
+    max-width: 496px
  }
  .hero-title {
         font-size: 56px;
@@ -180,15 +194,31 @@ font-family: "Roboto", sans-serif;*/
         letter-spacing: 0.04em;
          color: #fff;
  }
+ .style-button {
+  display: block;
+  margin: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  
+
+
+ }
 
  .form-button:hover,
  .form-button:focus {
      background-color: #404bbf;
     cursor: pointer;
  }
-/* ----  HW 3-----*/
+/* ----  HW 3---?--*/
+ .img {
+  display: block;
+  max-width: 100%;
+ }
  
-
 
 
         
