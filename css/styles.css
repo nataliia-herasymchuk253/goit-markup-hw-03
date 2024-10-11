@@ -182,6 +182,10 @@ font-family: "Roboto", sans-serif;*/
  .card-list {
   display: flex;
   gap: 24px;
+
+  /* experiment*/
+ flex-wrap: wrap;
+
  }
 
  .card-item {
