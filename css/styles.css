@@ -176,8 +176,10 @@ font-family: "Roboto", sans-serif;*/
      background-color: #404bbf;
     cursor: pointer;
  }
-
-
+/* ----  HW 3-----*/
+ .img {
+  display: block;
+ }
 
 
 
