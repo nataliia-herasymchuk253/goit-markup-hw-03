@@ -119,6 +119,7 @@ font-family: "Roboto", sans-serif;*/
 
      .feature-list {
       display: flex;
+      width: calc((100% - 72px) / 4);
       gap: 24px;
      }
 .feature-subtitle {
@@ -131,8 +132,10 @@ font-family: "Roboto", sans-serif;*/
         
         margin-bottom: 8px;
 }
+/* ???do not anderstand */
  .card-item {
   width: calc((100% - 72px) / 4);
+  
  }
 
 .feature-text {
@@ -146,7 +149,9 @@ font-family: "Roboto", sans-serif;*/
   /*---section 3----*/
 
 .section-team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding: 120px 0;
+
 }
 .visually-hidden {
   position: absolute;
@@ -169,6 +174,12 @@ font-family: "Roboto", sans-serif;*/
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px;
+ }
+
+ .card-list {
+  display: flex;
+  gap: 24px;
  }
 
  .card-item {
