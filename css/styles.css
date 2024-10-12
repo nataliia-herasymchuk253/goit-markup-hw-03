@@ -180,11 +180,13 @@ font-family: "Roboto", sans-serif;*/
  }
  .card-list {
    display: flex;
-   /*
+   
    gap: 24px;
-   */
+   
    flex-wrap: wrap;
+   /*
    row-gap: 48px;
+   */
  }
  .card-item {
     background-color: #FFFFFF;
