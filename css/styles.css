@@ -214,15 +214,21 @@ font-family: "Roboto", sans-serif;*/
         text-align: center;
         color: #434455;
  }
+
  .hero {
     background-color: #2e2f42;
     padding: 188px 0;
     margin: auto;
-
+    max-width: 496px;
+    padding: 188px 0;
+    
+    /*
     width: 1440px 0;
       height: 600px;
-    max-width: 496px;
+    */
+
  }
+
  .hero-title {
         font-size: 56px;
         line-height: 107%;
@@ -230,19 +236,19 @@ font-family: "Roboto", sans-serif;*/
         text-align: center;
         color: #fff;
         max-width: 496px;
+        margin: auto;
  }
- .hero {
-padding: 188px 0;
- }
+
   
 
  .form-button {
-        background: #4d5ae5; 
-        font-weight: 500;
-         line-height: 150%;
-        letter-spacing: 0.04em;
-         color: #fff;
+  background: #4d5ae5; 
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
  }
+
  .style-button {
   display: block;
   margin: auto;
@@ -263,10 +269,14 @@ padding: 188px 0;
     cursor: pointer;
  }
 /* ----  HW 3---?--*/
- .img {
+  
+  img {
   display: block;
+  
+  /*
   max-width: 100%;
   height: auto;
+  */
  }
  /*---section 3 ---*/
 
