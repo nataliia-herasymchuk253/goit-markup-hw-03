@@ -188,8 +188,14 @@ font-family: "Roboto", sans-serif;*/
    row-gap: 48px;
    */
 
-
  }
+    .card-portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 24px;
+      row-gap: 48px;
+    }
+
  .card-item {
     background-color: #FFFFFF;
  }
