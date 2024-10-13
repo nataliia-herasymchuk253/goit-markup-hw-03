@@ -5,7 +5,7 @@ font-family: "Roboto", sans-serif;*/
     color: #434455;
     background-color: #fff;
   }
-  /* ----reset----*/
+
   ul, ol {
     list-style-type: none;
     margin: 0;
@@ -54,8 +54,6 @@ font-family: "Roboto", sans-serif;*/
     text-transform: uppercase;
     color: #4d5ae5;
   }
-
-  /*---hw3---*/
 
   .header-logo {
     margin-right: 76px;
@@ -180,15 +178,10 @@ font-family: "Roboto", sans-serif;*/
  }
  .card-list {
    display: flex;
-   
    gap: 24px;
-   
    flex-wrap: wrap;
-   /*
-   row-gap: 48px;
-   */
-
  }
+
     .card-portfolio {
       display: flex;
       flex-wrap: wrap;
@@ -207,39 +200,43 @@ font-family: "Roboto", sans-serif;*/
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    /*
     text-align: center;
-    */
+    color: #2e2f42;
+    margin-bottom: 8px;
+ }
+ .name-portfolio {
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
  }
 
  .position {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-
-        /*
-        text-align: center;
-        */
-
-        color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+ }
+ .position-portfolio {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: 0.02em;
+   color: #434455;
  }
 
  .hero {
     background-color: #2e2f42;
     padding: 188px 0;
     margin: auto;
-    
     padding: 188px 0;
     
-    /*
-    width: 1440px 0;
-      height: 600px;
-    */
-
  }
+
  h1 {
   margin-left: auto;
   margin-right: auto;
@@ -247,21 +244,15 @@ font-family: "Roboto", sans-serif;*/
  }
 
  .hero-title {
-        font-size: 56px;
-        line-height: 107%;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
-        max-width: 496px;
+   font-size: 56px;
+   line-height: 107%;
+   letter-spacing: 0.02em;
+   text-align: center;
+   color: #fff;
+   max-width: 496px;
         
-        /*
-        margin: auto;
-        */
  }
-
-
   
-
  .form-button {
   background: #4d5ae5; 
   font-weight: 500;
@@ -279,10 +270,7 @@ font-family: "Roboto", sans-serif;*/
   border-radius: 4px;
   cursor: pointer;
   background-color: #4d5ae5;
-  
-
-
- }
+  }
 
  .form-button:hover,
  .form-button:focus {
@@ -290,15 +278,10 @@ font-family: "Roboto", sans-serif;*/
     cursor: pointer;
  }
 
-  
   img {
   display: block;
-  
-  /*
-  max-width: 100%;
-  height: auto;
-  */
  }
+
  /*---section 3 ---*/
 
  .portfolio {
@@ -321,9 +304,7 @@ font-family: "Roboto", sans-serif;*/
  .footer-logo {
   display: inline-block;
  }
-
-
-        
+  
    .footer-text {
     font-weight: 400;
     font-size: 16px;
